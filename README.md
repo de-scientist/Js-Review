@@ -625,21 +625,29 @@
 
 
 
-Removing an element from an array﻿
-
-We use the filter method to remove items from an array without mutating the original.
 
 
-
-It works by returning a new array that includes only the elements that satisfy a given condition any elements that don’t pass the condition are excluded from the result.
+#### **Removing an element from an array﻿**
 
 
 
-const fruits = \["apple", "banana", "mango"];
+##### We use the filter method to remove items from an array without mutating the original.
 
-const remainingFruits = fruits.filter(fruit => fruit != "banana")
+##### 
 
-console.log(remainingFruits)
+##### It works by returning a new array that includes only the elements that satisfy a given condition any elements that don’t pass the condition are excluded from the result.
+
+
+
+**const fruits = \["apple", "banana", "mango"];**
+
+**const remainingFruits = fruits.filter(fruit => fruit != "banana")**
+
+**console.log(remainingFruits)**
+
+
+
+
 
 Updating Items﻿
 
