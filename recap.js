@@ -12,4 +12,5 @@ specs: {
 
 const brand = laptop.brand;
 const model = laptop.model;
-console.log(brand, model)
+const specs = laptop.specs;
+console.log(brand, model, specs)
