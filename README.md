@@ -247,3 +247,61 @@
 
 **const message = `Hello, ${name}!`;**
 
+
+
+
+
+### **The Ternary Operator﻿**
+
+
+
+##### The ternary operator is a shorthand for if...else.
+
+##### 
+
+##### The syntax for the ternary operator is:
+
+
+
+* **condition ? expressionIfTrue : expressionIfFalse;**
+
+
+
+##### For example, instead of:
+
+
+
+**let canVote;**
+
+**let age = 25;**
+
+**if (age > 18) {**
+
+  **console.log("Can vote");**
+
+**} else {**
+
+  **console.log("Cannot vote");**
+
+**}**
+
+
+
+##### We can use the ternary operator:
+
+
+
+**let canVote;**
+
+**let age = 25;**
+
+
+
+**canVote = age > 25 ? "Can vote" : "Cannot vote";**
+
+
+
+
+
+
+
