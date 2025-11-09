@@ -47,3 +47,8 @@ console.log(typeAndColor)
 function greet(name) {
     return `Hello ${name}`
 }
+
+//arrow function
+const greet = (name) => {
+    return `Hello ${name}`
+}
