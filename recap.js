@@ -38,3 +38,7 @@ const border = ["3px", "solid", "green"];
 
 const [, , borderColor] = border;
 console.log(borderColor)
+
+//combine items into another array with the rest operator
+const [, ...typeAndColor] = border;
+console.log(typeAndColor)
