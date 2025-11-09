@@ -583,3 +583,79 @@
 
 **console.log(greaterThan10)**
 
+
+
+
+
+### **Working With Immutable Arrays﻿**
+
+
+
+##### In React, many operations need to be immutable, meaning that we do not manipulate the underlying data structure.
+
+##### 
+
+##### We don't do such a thing in React:
+
+
+
+**const fruits = \["apple", "banana"];**
+
+**fruits.push("mango"); // Mutates the original**
+
+
+
+##### It is therefore important to learn how to add, delete, or update elements without mutating the original underlying array.
+
+
+
+Adding an element to an array﻿
+
+We use the spread operator to add an item, this is done by using the spread operator to copy the items of the original array into the new array and then adding the new item as shown:
+
+
+
+const fruits = \["apple", "banana"];
+
+const newFruits = \[...fruits, "mango"]
+
+console.log(newFruits)
+
+Removing an element from an array﻿
+
+We use the filter method to remove items from an array without mutating the original.
+
+
+
+It works by returning a new array that includes only the elements that satisfy a given condition any elements that don’t pass the condition are excluded from the result.
+
+
+
+const fruits = \["apple", "banana", "mango"];
+
+const remainingFruits = fruits.filter(fruit => fruit != "banana")
+
+console.log(remainingFruits)
+
+Updating Items﻿
+
+Use the map method to update item(s) in the array.
+
+
+
+const fruits = \["apple", "banana", "mango"];
+
+const updatedFruits = fruits.map((fruit) => {
+
+&nbsp; if (fruit === "banana") {
+
+&nbsp;   return "BANANAS";
+
+&nbsp; }
+
+&nbsp; return fruit;
+
+});
+
+console.log(updatedFruits);
+
