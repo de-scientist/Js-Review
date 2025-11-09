@@ -42,3 +42,8 @@ console.log(borderColor)
 //combine items into another array with the rest operator
 const [, ...typeAndColor] = border;
 console.log(typeAndColor)
+
+//normal function
+function greet(name) {
+    return `Hello ${name}`
+}
