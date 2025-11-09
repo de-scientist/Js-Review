@@ -457,21 +457,55 @@
 
 
 
-Short-Circuiting With Nullish Coalescing Operator ??﻿
+#### **Short-Circuiting With Nullish Coalescing Operator ??﻿**
 
 
 
-The Nullish Coalescing Operator returns the second value when the first value is null or undefined, but not when it is 0 or an empty string.
+##### The Nullish Coalescing Operator returns the **second** value when the **first** value is **null** or **undefined**, but not when it is **0** or an **empty** string.
+
+##### 
+
+##### Unlike ||, it doesn’t treat falsy values like 0, "", or false as falsy.
 
 
 
-Unlike ||, it doesn’t treat falsy values like 0, "", or false as falsy.
+**console.log(undefined ?? 'Hello, world'); // Hello, world**
+
+**console.log(0 ?? 'Hello, world'); // 0**
 
 
 
-console.log(undefined ?? 'Hello, world'); // Hello, world
 
-console.log(0 ?? 'Hello, world'); // 0
+
+### **Optional Chaining﻿**
+
+
+
+##### Optional chaining **(?.)** lets you safely access deeply nested object properties without getting runtime errors if something along the way is null or undefined.
+
+
+
+##### In this example:
+
+
+
+**const street = user.address.street;**
+
+
+
+##### If address is missing, we will get an error.
+
+
+
+##### We can help fix this predictable issue with optional chaining:
+
+
+
+**const street = user.address?.street;**
+
+
+
+##### And now, when the address is missing, we get undefined instead
 
 
 
