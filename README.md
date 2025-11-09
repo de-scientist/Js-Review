@@ -303,5 +303,63 @@
 
 
 
+### **Arrow Functions﻿**
+
+
+
+##### Arrow functions are a shorter syntax for writing functions.
+
+##### 
+
+##### Consider the function below:
+
+
+
+**function greet(name) {**
+
+    **return `Hello ${name}`**
+
+**}**
+
+
+
+##### We can easily convert it into an arrow function:
+
+
+
+**const greet = (name) => {**
+
+    **return `Hello ${name}`**
+
+**}**
+
+
+
+##### If an arrow function has only one parameter, we can drop the parenthesis:
+
+
+
+**const greet = name => {**
+
+    **return `Hello ${name}`**
+
+**}**
+
+
+
+##### If an arrow function has only one line in the body, you can drop the curly brackets:
+
+
+
+**const greet = name => console.log(`Hello ${name}`)**
+
+
+
+##### If an arrow function has only one line in the body, and it happens to be a return statement, we can drop the return keyword:
+
+
+
+**const greet = name => `Hello ${name}`**
+
 
 
