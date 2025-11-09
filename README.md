@@ -649,25 +649,27 @@
 
 
 
-Updating Items﻿
-
-Use the map method to update item(s) in the array.
+#### **Updating Items﻿**
 
 
 
-const fruits = \["apple", "banana", "mango"];
+##### Use the **map** method to update item(s) in the array.
 
-const updatedFruits = fruits.map((fruit) => {
 
-&nbsp; if (fruit === "banana") {
 
-&nbsp;   return "BANANAS";
+**const fruits = \["apple", "banana", "mango"];**
 
-&nbsp; }
+**const updatedFruits = fruits.map((fruit) => {**
 
-&nbsp; return fruit;
+  **if (fruit === "banana") {**
 
-});
+    **return "BANANAS";**
 
-console.log(updatedFruits);
+  **}**
+
+  **return fruit;**
+
+**});**
+
+**console.log(updatedFruits);**
 
