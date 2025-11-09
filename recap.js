@@ -52,3 +52,6 @@ function greet(name) {
 const greet = (name) => {
     return `Hello ${name}`
 }
+
+//final arrow function -> If an arrow function has only one line in the body, and it happens to be a return statement, we can drop the return keyword
+const greet = name => `Hello ${name}`
