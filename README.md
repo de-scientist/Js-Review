@@ -609,17 +609,21 @@
 
 
 
-Adding an element to an array﻿
-
-We use the spread operator to add an item, this is done by using the spread operator to copy the items of the original array into the new array and then adding the new item as shown:
+#### **Adding an element to an array﻿**
 
 
 
-const fruits = \["apple", "banana"];
+##### We use the spread operator to add an item, this is done by using the spread operator to copy the items of the original array into the new array and then adding the new item as shown:
 
-const newFruits = \[...fruits, "mango"]
 
-console.log(newFruits)
+
+**const fruits = \["apple", "banana"];**
+
+**const newFruits = \[...fruits, "mango"]**
+
+**console.log(newFruits)**
+
+
 
 Removing an element from an array﻿
 
