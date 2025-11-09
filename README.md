@@ -2,15 +2,15 @@
 
 
 
-* ###### Before you dive into React, it’s crucial to have your JavaScript fundamentals in place.
+* ##### Before you dive into React, it’s crucial to have your JavaScript fundamentals in place.
 
-###### 
+##### 
 
-* ###### React is built on JavaScript, and if you don't have a good grip on things like variables, functions, arrays, and objects, you're basically trying to build a house without knowing how to use a hammer.
+* ##### React is built on JavaScript, and if you don't have a good grip on things like variables, functions, arrays, and objects, you're basically trying to build a house without knowing how to use a hammer.
 
-###### 
+##### 
 
-* ###### In this review, we’ll walk through the essential JavaScript concepts you need to be confident with before you can get into React.
+* ##### In this review, we’ll walk through the essential JavaScript concepts you need to be confident with before you can get into React.
 
 
 
@@ -18,15 +18,15 @@
 
 ### **Destructuring Arrays and Objects﻿**
 
+##### 
 
-
-* ###### Destructuring lets you extract values from arrays or properties from objects and assign them to variables in a single, elegant line of code.
+* ##### Destructuring lets you extract values from arrays or properties from objects and assign them to variables in a single, elegant line of code.
 
 
 
 ### **Destructuring Objects﻿**
 
-* ###### Let's say we have this object:
+* ##### Let's say we have this object:
 
 
 
@@ -47,9 +47,9 @@
 
 **};**
 
+##### 
 
-
-* ###### If we wanted to assign the laptop brand and model to a variable, we could do something like this:
+* ##### If we wanted to assign the laptop brand and model to a variable, we could do something like this:
 
 
 
@@ -61,7 +61,7 @@
 
 
 
-* ###### With destructuring, it's simple, we can do it in a single elegant line like this:
+* ##### With destructuring, it's simple, we can do it in a single elegant line like this:
 
 
 
@@ -71,7 +71,7 @@
 
 
 
-* ###### We could even go deeper:
+* ##### We could even go deeper:
 
 
 
@@ -81,7 +81,7 @@
 
 
 
-* ###### We can also rename the variables during destructuring as shown:
+* ##### We can also rename the variables during destructuring as shown:
 
 
 
@@ -95,7 +95,7 @@
 
 
 
-* ###### Arrays use positions to destructure and not properties.
+* ##### Arrays use positions to destructure and not properties.
 
 
 
@@ -113,7 +113,7 @@
 
 
 
-* ###### We can also skip items during destructuring;
+* ##### We can also skip items during destructuring;
 
 
 
@@ -127,7 +127,7 @@
 
 
 
-* ###### You can also combine items into another array with the rest operator:
+* ##### You can also combine items into another array with the rest operator:
 
 
 
@@ -149,7 +149,7 @@
 
 
 
-###### The spread operator expands elements of an iterable (like an array or object) into individual elements.
+* ##### The spread operator expands elements of an iterable (like an array or object) into individual elements.
 
 
 
@@ -159,7 +159,7 @@
 
 
 
-###### We can use the spread operator for shallow copying arrays:
+* ##### We can use the spread operator for shallow copying arrays:
 
 
 
@@ -171,7 +171,7 @@
 
 
 
-###### We can use the spread operator for merging arrays:
+* ##### We can use the spread operator for merging arrays:
 
 
 
