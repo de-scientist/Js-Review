@@ -183,25 +183,31 @@
 
 
 
-The Rest Operator (...)﻿
-
-The rest operator bundles values into an array or an object.
 
 
-
-It is used in function parameters or destructuring.
+### **The Rest Operator (...)﻿**
 
 
 
-function sum(...numbers) {
+* ##### The rest operator bundles values into an array or an object.
 
-&nbsp;   console.log(numbers)
+##### 
 
-}
+* ##### It is used in function parameters or destructuring.
 
-sum(1, 2, 3) // \[1, 2, 3]
 
-sum(2, 1, 99, 22, 29, 38) // \[2, 1, 99, 22, 29, 38]
 
-Here, ...numbers grabs all the passed arguments and packs them into an array called numbers.
+**function sum(...numbers) {**
+
+    **console.log(numbers)**
+
+**}**
+
+**sum(1, 2, 3) // \[1, 2, 3]**
+
+**sum(2, 1, 99, 22, 29, 38) // \[2, 1, 99, 22, 29, 38]**
+
+
+
+##### Here, **...numbers** grabs all the passed arguments and packs them into an array called **numbers**.
 
