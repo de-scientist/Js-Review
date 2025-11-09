@@ -22,3 +22,19 @@ const { specs: { ram } } = laptop;
 console.log(ram)
 const { brand: laptopBrand } = laptop;
 console.log(laptopBrand)
+
+
+//Destructuring arrays
+
+//const border = ["3px", "solid", "green"];
+
+//const [borderSize, borderType, borderColor] = border;
+console.log(borderSize)
+console.log(borderType)
+console.log(borderColor)
+
+
+const border = ["3px", "solid", "green"];
+
+const [, , borderColor] = border;
+console.log(borderColor)
