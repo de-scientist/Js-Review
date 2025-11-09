@@ -209,5 +209,41 @@
 
 
 
-##### Here, **...numbers** grabs all the passed arguments and packs them into an array called **numbers**.
+* ##### Here, **...numbers** grabs all the passed arguments and packs them into an array called **numbers**.
+
+
+
+
+
+### **Template Literals﻿**
+
+
+
+##### Template literals are special strings in JavaScript that use backticks ( ` ) instead of regular quotes.
+
+##### 
+
+##### They let you:
+
+
+
+* ##### Embed variables or expressions directly into the string
+
+##### 
+
+* ##### Write multi-line strings without \\n escape characters.
+
+
+
+##### For example, instead of:
+
+
+
+**const message = "Hello, " + name + "!";**
+
+
+
+**const name = "Dennis";**
+
+**const message = `Hello, ${name}!`;**
 
