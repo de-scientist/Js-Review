@@ -509,3 +509,39 @@
 
 
 
+### 
+
+### **Array Map Method﻿**
+
+
+
+##### The **.map()** method is used to transform every element in an array and return a new array with the transformed values.
+
+##### 
+
+##### The map method takes in a callback function that takes in 3 parameters:
+
+
+
+The first parameter is the current item
+
+
+
+The second parameter is the index of the current item
+
+
+
+The third parameter is the array itself that we are mapping.
+
+
+
+Most of the time, we are interested in the first parameter only or the first two.
+
+
+
+const numbers = \[1, 2, 3, 4]
+
+const doubled = numbers.map((number) => number \* 2);
+
+console.log(doubled)
+
