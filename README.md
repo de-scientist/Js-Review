@@ -363,3 +363,95 @@
 
 
 
+
+
+### **Short-Circuiting﻿**
+
+
+
+##### Short-circuiting is a behavior in programming where some logical operators stop evaluating as soon as the result is determined.
+
+##### 
+
+##### Think of short-circuiting like this: **"If I already know the answer, why keep asking the question".**
+
+##### 
+
+##### Short-circuiting means that the operator will return the first value and not even bother looking at the second value.
+
+
+
+Short-Circuiting With Logical \&\&﻿
+
+The AND operator short-circuits when the first operand is false.
+
+
+
+Basically, when the first operand is true or any truthy value, the AND operator will return the second value, no matter what that value is, it only short-circuits when the first value is falsy.
+
+
+
+console.log(true \&\& "Hello, World"); // Hello, World
+
+console.log(false \&\& "Hello, World"); // false
+
+We can use the AND operator as an if statement.
+
+
+
+Instead of:
+
+
+
+const age = 25;
+
+if (age > 18) {
+
+&nbsp;   console.log(`You are an adult`)
+
+}
+
+const age = 25;
+
+console.log(age > 18 \&\& "you are an adult")
+
+Short-Circuiting With Logical ||﻿
+
+The OR operator short-circuits when the first operand is true or truthy and returns it.
+
+
+
+Basically, when the first operand is true or any truthy value, the OR operator will return that value, if the first operand is false or andy falsy value, it will return the second operand.
+
+
+
+console.log(true || "Hello, World"); // true
+
+console.log(false || "Hello, World"); // Hello, World
+
+The OR operator is useful for setting default values:
+
+
+
+function greet(userName) {
+
+&nbsp;   console.log(`Hello ${userName || "Guest"}`)
+
+}
+
+Short-Circuiting With Nullish Coalescing Operator ??﻿
+
+The Nullish Coalescing Operator returns the second value when the first value is null or undefined, but not when it is 0 or an empty string.
+
+
+
+Unlike ||, it doesn’t treat falsy values like 0, "", or false as falsy.
+
+
+
+console.log(undefined ?? 'Hello, world'); // Hello, world
+
+console.log(0 ?? 'Hello, world'); // 0
+
+
+
