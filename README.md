@@ -32,17 +32,18 @@
 
 **const laptop = {**
 
-  **brand: "Dell",**
+**brand: "Dell",**
 
-  **model: "XPS 15",**
+**model: "XPS 15",**
 
-  **specs: {**
+**specs: {**
 
-    **ram: "16GB",**
+&nbsp;   \*\*ram: "16GB",\*\*
 
-    **storage: "512GB SSD"**
+    \*\*storage: "512GB SSD"\*\*
 
-  **}**
+
+**}**
 
 **};**
 
@@ -137,4 +138,70 @@
 **const \[, ...typeAndColor] = border;**
 
 **console.log(typeAndColor)**
+
+
+
+## **Rest and Spread Operator﻿**
+
+
+
+### **The Spread Operator (...)﻿**
+
+
+
+###### The spread operator expands elements of an iterable (like an array or object) into individual elements.
+
+
+
+**const numbers = \[1, 2, 3, 4];**
+
+**console.log(...numbers) // 1 2 3 4**
+
+
+
+###### We can use the spread operator for shallow copying arrays:
+
+
+
+**const numbers = \[1, 2, 3, 4];**
+
+**const numbersCopy = \[...numbers]**
+
+**console.log(numbersCopy)**
+
+
+
+###### We can use the spread operator for merging arrays:
+
+
+
+**const arr1 = \[1, 2, 3]**
+
+**const arr2 = \[4, 5, 6]**
+
+**console.log(\[...arr1, ...arr2])**
+
+
+
+The Rest Operator (...)﻿
+
+The rest operator bundles values into an array or an object.
+
+
+
+It is used in function parameters or destructuring.
+
+
+
+function sum(...numbers) {
+
+&nbsp;   console.log(numbers)
+
+}
+
+sum(1, 2, 3) // \[1, 2, 3]
+
+sum(2, 1, 99, 22, 29, 38) // \[2, 1, 99, 22, 29, 38]
+
+Here, ...numbers grabs all the passed arguments and packs them into an array called numbers.
 
