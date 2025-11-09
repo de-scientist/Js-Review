@@ -511,7 +511,7 @@
 
 ### 
 
-### **Array Map Method﻿**
+### **Array Map Method﻿ .map()**
 
 
 
@@ -523,25 +523,63 @@
 
 
 
-The first parameter is the current item
+* ##### The first parameter is the **current item**
+
+##### 
+
+* ##### The second parameter is the **index of the current item**
+
+##### 
+
+* ##### The third parameter is the **array itself** that we are mapping.
+
+##### 
+
+##### Most of the time, we are interested in the first parameter only or the first two.
 
 
 
-The second parameter is the index of the current item
+**const numbers = \[1, 2, 3, 4]**
+
+**const doubled = numbers.map((number) => number \* 2);**
+
+**console.log(doubled)**
 
 
 
-The third parameter is the array itself that we are mapping.
+
+
+### **The Array Filter Method﻿ .filter()**
 
 
 
-Most of the time, we are interested in the first parameter only or the first two.
+##### .filter() loops through an array and returns a new array containing only the elements that match your condition.
+
+##### 
+
+##### The filter method takes in a callback function that takes in 3 parameters:
+
+##### 
+
+* ##### The first parameter is the current item
+
+##### 
+
+* ##### The second parameter is the index of the current item
+
+##### 
+
+* ##### The third parameter is the array itself that we are mapping.
+
+##### 
+
+##### Most of the time, we are interested in the first parameter only or the first two.
 
 
 
-const numbers = \[1, 2, 3, 4]
+**const numbers = \[4, 12, 7, 20, 3];**
 
-const doubled = numbers.map((number) => number \* 2);
+**const greaterThan10 = numbers.filter(number => number > 10);**
 
-console.log(doubled)
+**console.log(greaterThan10)**
 
