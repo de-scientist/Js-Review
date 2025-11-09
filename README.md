@@ -423,33 +423,43 @@
 
 
 
-Short-Circuiting With Logical ||﻿
+
+
+#### **Short-Circuiting With Logical ||﻿**
 
 
 
-The OR operator short-circuits when the first operand is true or truthy and returns it.
+##### The **OR** operator short-circuits when the first operand is **true** or **truthy** and returns it.
+
+##### 
+
+##### Basically, when the first operand is **true** or any **truthy** value, the **OR** operator will return that value, if the first operand is **false** or any **falsy** value, it will return the second operand.
 
 
 
-Basically, when the first operand is true or any truthy value, the OR operator will return that value, if the first operand is false or andy falsy value, it will return the second operand.
+**console.log(true || "Hello, World"); // true**
+
+**console.log(false || "Hello, World"); // Hello, World**
 
 
 
-console.log(true || "Hello, World"); // true
-
-console.log(false || "Hello, World"); // Hello, World
-
-The OR operator is useful for setting default values:
+##### The OR operator is useful for setting default values:
 
 
 
-function greet(userName) {
+**function greet(userName) {**
 
-&nbsp;   console.log(`Hello ${userName || "Guest"}`)
+    **console.log(`Hello ${userName || "Guest"}`)**
 
-}
+**}**
+
+
+
+
 
 Short-Circuiting With Nullish Coalescing Operator ??﻿
+
+
 
 The Nullish Coalescing Operator returns the second value when the first value is null or undefined, but not when it is 0 or an empty string.
 
