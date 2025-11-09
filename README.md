@@ -38,9 +38,9 @@
 
 **specs: {**
 
-&nbsp;   \*\*ram: "16GB",\*\*
+&nbsp;   **ram: "16GB",
 
-    \*\*storage: "512GB SSD"\*\*
+    storage: "512GB SSD"**
 
 
 **}**
