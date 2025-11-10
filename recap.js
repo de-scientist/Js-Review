@@ -69,3 +69,11 @@ console.log(false && "I am learning and growing");
 console.log(true || "I learn, I earn and Return");
 console.log(false || "Another chance to be better");
 
+//array map method .map() -- takes in a callback function
+const array = ["mark", "kibet", "babra", "winnie"]
+
+const newArray = array.map(function (x, y) {
+   return x.toUpperCase(); 
+});
+console.log(newArray);
+
