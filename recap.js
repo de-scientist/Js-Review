@@ -99,3 +99,10 @@ const filtered1 = array.filter(function(x){
     return x.length;
 })
 console.log(filtered1);
+
+//updating array
+const transformedArray = array.map(function(item) {
+    if (item.includes("a")) {
+        
+    }
+})
