@@ -77,3 +77,11 @@ const newArray = array.map(function (x, y) {
 });
 console.log(newArray);
 
+//array filter method .filter()
+const array1 = ["mark", "kibet", "babra", "winnie"]
+
+const filtered = array1.filter(function (x, y) {
+   return x.length >= 6 
+});
+console.log(filtered);
+
