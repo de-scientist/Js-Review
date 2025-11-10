@@ -93,3 +93,9 @@ const array2 = ["mark", "kibet", "babra", "winnie"]
 const newArray2 = [...array2, "Irene"]
 const newArray3 = [...newArray2, "Dandon"]
 console.log(newArray3);
+
+//filtered for imutable arrays
+const filtered1 = array.filter(function(x){
+    return x.length;
+})
+console.log(filtered1);
