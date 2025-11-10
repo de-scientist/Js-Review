@@ -60,3 +60,9 @@ const greet = name => `Hello ${name}`
 let userAge = 22;
 const userCanVote = userAge >= 18 ? "User can vote" : "User can not vote";
 console.log(userCanVote);
+
+//short-circuiting using logical && - short-circuits if the first operand is false or falsy value {false, o, undefined, null, "empty string"}
+console.log(true && "I am blessed and highly favored");
+console.log(false && "I am learning and growing");
+
+
