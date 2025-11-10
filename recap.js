@@ -88,4 +88,8 @@ const filtered = array1.filter(function (x, y) {
 });
 console.log(filtered);
 
-//add items 
+//add items using ... operator
+const array2 = ["mark", "kibet", "babra", "winnie"]
+const newArray2 = [...array2, "Irene"]
+const newArray3 = [...newArray2, "Dandon"]
+console.log(newArray3);
