@@ -100,9 +100,12 @@ const filtered1 = array.filter(function(x){
 })
 console.log(filtered1);
 
-//updating array
-const transformedArray = array.map(function(item) {
+//updating array using the .map()
+const array3 = ["mark", "kibet", "babra", "winnie"]
+const transformedArray = array3.map(function(item) {
     if (item.includes("a")) {
-        
+       return item.toUpperCase(); 
     }
-})
+    return array3;
+});
+console.log(transformedArray);
