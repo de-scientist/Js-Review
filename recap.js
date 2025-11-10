@@ -84,7 +84,8 @@ console.log(newArray);
 const array1 = ["mark", "kibet", "babra", "winnie"]
 
 const filtered = array1.filter(function (x, y) {
-   return x.length >= 6 
+   return x.includes("a")
 });
 console.log(filtered);
 
+//add items 
