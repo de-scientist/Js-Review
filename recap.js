@@ -73,6 +73,9 @@ console.log(false || "Another chance to be better");
 const array = ["mark", "kibet", "babra", "winnie"]
 
 const newArray = array.map(function (x, y) {
+    if (x.length < 6) {
+        return x.toUpperCase() + "%%"; 
+    }
    return x.toUpperCase(); 
 });
 console.log(newArray);
