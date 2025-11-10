@@ -55,3 +55,8 @@ const greet = (name) => {
 
 //final arrow function -> If an arrow function has only one line in the body, and it happens to be a return statement, we can drop the return keyword
 const greet = name => `Hello ${name}`
+
+//ternary operator
+let userAge = 22;
+const userCanVote = userAge >= 18 ? "User can vote" : "User can not vote";
+console.log(userCanVote);
